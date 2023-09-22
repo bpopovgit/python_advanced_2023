@@ -25,7 +25,7 @@ while colors_string:
 for color in collected_colors:
     if color in secondary_colors:
         for el in secondary_colors[color]:
-            if el not in collected_colors:
+            if el not in secondary_colors:
                 collected_colors.remove(color)
                 break
 
