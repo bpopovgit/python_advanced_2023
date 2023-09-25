@@ -1,5 +1,5 @@
 rows, columns = [int(x) for x in input().split()]
-matrix = [[x for x in input().split()]for x in range(rows)]
+matrix = [[x for x in input().split()] for x in range(rows)]
 
 count = 0
 
