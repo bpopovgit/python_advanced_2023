@@ -32,20 +32,22 @@ for _ in range(n):
             print(f"Training completed! All {len(targets_down)} targets hit.")
             break
     elif command[0] == 'move':
-        steps = int(command[2])
-        direction = command[1]
-        if direction == 'up':
-            r = player_position[0] - steps
-            c = player_position[1]
-        elif direction == 'down':
-            r = player_position[0] + steps
-            c = player_position[1]
-        elif direction == 'left':
-            r = player_position[0]
-            c = player_position[1] - steps
-        elif direction == 'right':
-            r = player_position[0]
-            c = player_position[1] + steps
+        # steps = int(command[2])
+        # direction = command[1]
+        # if direction == 'up':
+        #     r = player_position[0] - steps
+        #     c = player_position[1]
+        # elif direction == 'down':
+        #     r = player_position[0] + steps
+        #     c = player_position[1]
+        # elif direction == 'left':
+        #     r = player_position[0]
+        #     c = player_position[1] - steps
+        # elif direction == 'right':
+        #     r = player_position[0]
+        #     c = player_position[1] + steps
+        r = player_position[0] + directions[command[1]][0] * int(command[2])
+        c = player_position[1] + directions[command[1]][1] * int(command[2])
         if 0 <= r < 5 and 0 <= c < 5 and matrix[r][c] == '.':
             matrix[r][c] = 'A'
             matrix[player_position[0]][player_position[1]] = '.'
