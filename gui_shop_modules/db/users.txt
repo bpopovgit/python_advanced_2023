@@ -1,0 +1,5 @@
+{"username": "test", "password": "123", "first_name": "A", "last_name": "B", "products": [1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 6, 6, 6, 6, 6, 5, 5, 5, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 6, 6, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 6, 6, 6, 6, 6, 6, 2]}
+{"username": "newuser", "password": "testpw", "first_name": "first", "last_name": "last", "products": []}
+{"username": "test4", "password": "Aa22", "first_name": "sdfsf", "last_name": "12412", "products": []}
+{"username": "test2", "password": "Aa1_", "first_name": "aaaaa", "last_name": "aaaa", "products": []}
+{"username": "test3", "password": "aa1_", "first_name": "sss", "last_name": "aa", "products": []}
